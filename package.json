@@ -1,0 +1,9 @@
+{
+  "name": "daily-todo",
+  "version": "1.0.0",
+  "description": "Daily to-do list web page with Excel export",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  }
+}
