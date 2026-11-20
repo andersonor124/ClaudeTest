@@ -2,6 +2,8 @@
 
 A to-do list web page for tracking daily tasks, with Excel export.
 
+**New here? Read the [User Guide](docs/user-guide.md)** for step-by-step instructions with screenshots.
+
 ## Demo
 [Watch the 78-second demo video](docs/demo.mp4) (MP4, 1.6 MB). On GitHub, open the
 file and click **View raw** or **Download** if it doesn't play in the page.
@@ -41,4 +43,5 @@ npm test
 - `src/todo-logic.js` – task logic (no browser code; unit-tested)
 - `src/app.js` – connects the page to the logic, storage, export, backup
 - `tests/todo-logic.test.js` – unit tests
+- `docs/user-guide.md` – how to use the app (with screenshots in `docs/images/`)
 - `docs/demo.mp4` – demo video
