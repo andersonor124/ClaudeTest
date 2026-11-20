@@ -1,18 +1,18 @@
 # ClaudeTest
 
-General-purpose repo for trying out projects with Claude Code. No stack chosen yet.
-Update "Project" and "Commands" below once one is.
+General-purpose repo for trying out projects with Claude Code.
+Current project: Daily To-Do web page with Excel export.
 
 ## Project
-- Stack: TBD
-- Layout: TBD
+- Stack: plain HTML/CSS/JavaScript (no build step). SheetJS 0.18.5 from cdnjs for Excel export.
+- Layout: `index.html`, `styles.css`, `src/todo-logic.js` (pure logic, works in browser + Node),
+  `src/app.js` (DOM, localStorage), `tests/` (Node built-in test runner).
 
 ## Commands
-<!-- Fill in once a stack exists -->
-- Install: TBD
-- Run: TBD
-- Test: TBD
-- Lint/format: TBD
+- Install: none
+- Run: open `index.html` in a browser
+- Test: `npm test` (Node 18+)
+- Lint/format: none yet
 
 ## Communication
 - Be precise and direct. Plain language: no unnecessary jargon or corporate phrasing.
